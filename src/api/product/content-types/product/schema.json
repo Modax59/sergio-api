@@ -36,7 +36,7 @@
       ],
       "default": "XS"
     },
-    "thumbnail": {
+    "Thumbnail": {
       "type": "media",
       "multiple": false,
       "required": true,
@@ -47,7 +47,7 @@
         "audios"
       ]
     },
-    "pictures": {
+    "Pictures": {
       "type": "media",
       "multiple": true,
       "required": false,
@@ -58,7 +58,7 @@
         "audios"
       ]
     },
-    "categories": {
+    "Categories": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::category.category"
